@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.complete {
+  background-color: #9ef0c0;
+}
+
+.item-div {
+  border-bottom: 1.5px rgba(145, 156, 170, 0.315) solid;
+  padding: 20px 0px 10px 0px;
+  margin-top: 20px;
+  width: 25%;
+  max-width: 500px;
+}
+
+ul {
+  list-style: none;
+}
+
+#add-bttn {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-image: url("../plus-bttn.png");
+  background-size: contain;
+  background-color: transparent;
+}
+
+#new-item {
+  padding-top: 10px;
+  border: none;
+  border-bottom: 1px rgba(145, 156, 170, 0.315) solid;
+  width: 25%;
+}
+
+.delete {
+  background: transparent;
+  border: none;
+}
+
+.hidden {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
