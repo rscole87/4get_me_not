@@ -67,7 +67,7 @@ const createListItem = () =>{
     let li = document.createElement("li");    
     li.appendChild(div);
     if (dateInput.value.length > 0){
-        div.appendChild(document.createTextNode(`${item} ${formattedDate(dateInput.value)}`));
+        div.appendChild(document.createTextNode(`${item} - ${formattedDate(dateInput.value)}`));
     } else {
         div.appendChild(document.createTextNode(item))
     }
